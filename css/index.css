@@ -125,14 +125,12 @@ nav a {
 
 .top-about-content {
     display: flex;
-    margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
 
 .top-about-content .text-container {
     width: 100%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
+    padding: 20px;
 }
 
 
@@ -213,23 +211,37 @@ nav a {
 }
 
 .box-set {
+    /* display: flex;
+    flex-direction: column; */
+    /* justify-content: center; */
+    width: 50%;
+    padding: 20px;
+    /* border-bottom: 1px dashed black; */
+    /* border: 1px solid blue; */
+}
+
+.inside-box {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    width: 50%;
+    padding-bottom: 20px;
     border-bottom: 1px dashed black;
 }
 
-.about-image {
-    display: flex;
-    margin: 5px;
+
+
+.box-set h2 {
+    padding-top: 10px;
+}
+
+.box-set p {
+    padding-bottom: 20px;
 }
 
 .button {
     width: 35%;
-    border-radius: 5px;
-    
-    border: 2px solid black;
+    height: 40px;
+    border-radius: 10px;
+    border: 3px solid black;
 }
 
 
@@ -253,6 +265,7 @@ nav a {
 
 .bottom-about-content {
     margin: 0 2% 40px;
+    padding-top: 40px;
 }
 
 
