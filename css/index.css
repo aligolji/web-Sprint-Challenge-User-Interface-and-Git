@@ -222,6 +222,12 @@ nav a {
     padding-right: 0;
 }
 
+/* ++++++++++++++++++BOTTOM SECTION - ABOUT PAGE+++++++++++++++++++++ */
+
+.bottom-about-content {
+    margin: 0 2% 40px;
+}
+
 
 /* -----------------FOOTER BOTH PAGES---------------------------------------- */
 
