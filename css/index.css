@@ -54,8 +54,6 @@ table {
     
 }
 
-/* =====================STYLE STARTS HERE====================================== */
-
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
@@ -70,6 +68,8 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+
+/* ------------------------HEADER BOTH PAGES----------------------- */
 
 .header-container {
     display: flex;
@@ -100,6 +100,8 @@ nav a {
     margin: 20px auto;
 }
 
+/* ======TOP SECTION - HOME PAGE ======================*/
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -118,6 +120,23 @@ nav a {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+/* +++++++++++TOP SECTION - ABOUT PAGE++++++++++++++ */
+
+.top-about-content {
+    display: flex;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.top-about-content .text-container {
+    width: 100%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+
+/* =========MIDDLE SECTION - HOME PAGE ========================= */
 
 .middle-content {
     margin-bottom: 20px;
@@ -186,6 +205,9 @@ nav a {
     background: dodgerblue;
 }
 
+
+/*================ BOTTOM SECTION - HOME PAGE=================== */
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -199,6 +221,10 @@ nav a {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+
+/* -----------------FOOTER BOTH PAGES---------------------------------------- */
+
 
 footer {
     width: 100%;
