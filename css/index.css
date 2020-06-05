@@ -69,7 +69,7 @@ p {
     line-height: 1.4;
 }
 
-/* ------------------------HEADER BOTH PAGES----------------------- */
+/* ------------------------ HEADER BOTH PAGES ----------------------- */
 
 .header-container {
     display: flex;
@@ -100,7 +100,7 @@ nav a {
     margin: 20px auto;
 }
 
-/* ======TOP SECTION - HOME PAGE ======================*/
+/* ====== TOP SECTION - HOME PAGE ======================*/
 
 .container {
     width: 800px;
@@ -121,7 +121,7 @@ nav a {
     padding-bottom: 20px;  
 }
 
-/* +++++++++++TOP SECTION - ABOUT PAGE++++++++++++++ */
+/* +++++++++++ TOP SECTION - ABOUT PAGE ++++++++++++++ */
 
 .top-about-content {
     display: flex;
@@ -136,7 +136,7 @@ nav a {
 }
 
 
-/* =========MIDDLE SECTION - HOME PAGE ========================= */
+/* ========= MIDDLE SECTION - HOME PAGE ========================= */
 
 .middle-content {
     margin-bottom: 20px;
@@ -205,8 +205,35 @@ nav a {
     background: dodgerblue;
 }
 
+/* ++++++++++++++++ MIDDLE SECTION - ABOUT PAGE +++++++++++++++++ */
 
-/*================ BOTTOM SECTION - HOME PAGE=================== */
+.middle-about-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box-set {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50%;
+    border-bottom: 1px dashed black;
+}
+
+.about-image {
+    display: flex;
+    margin: 5px;
+}
+
+.button {
+    width: 35%;
+    border-radius: 5px;
+    
+    border: 2px solid black;
+}
+
+
+/*================ BOTTOM SECTION - HOME PAGE =================== */
 
 .bottom-content {
     display: flex;
@@ -222,14 +249,14 @@ nav a {
     padding-right: 0;
 }
 
-/* ++++++++++++++++++BOTTOM SECTION - ABOUT PAGE+++++++++++++++++++++ */
+/* ++++++++++++++++++ BOTTOM SECTION - ABOUT PAGE +++++++++++++++++++++ */
 
 .bottom-about-content {
     margin: 0 2% 40px;
 }
 
 
-/* -----------------FOOTER BOTH PAGES---------------------------------------- */
+/* ----------------- FOOTER BOTH PAGES ---------------------------------------- */
 
 
 footer {
